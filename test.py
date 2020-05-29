@@ -15,5 +15,5 @@ if __name__ == "__main__":
 	# numbers = input("Enter a two value: ")
 
 
-	numbers = list(map(int, input("Enter a multiple value: ").split())) 
+	numbers = list(map(str, input("Enter a multiple value: ").split())) 
 	print(sum(numbers))
